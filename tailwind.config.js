@@ -12,7 +12,7 @@ module.exports = {
         },
         screens: {
             sm: "540px",
-            md: "720px",
+            md: "767px",
             lg: "990px",
             xl: "1240px",
             "2xl": "1440px",
@@ -27,6 +27,7 @@ module.exports = {
                 greyColor: "#3E4A5E",
                 borderColor: "#E4E7EC",
                 highlightColor: "#BCD4FF",
+                grey: "#5E6572"
             },
             fontSize: {
                 custom10: "10px",
