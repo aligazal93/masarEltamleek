@@ -35,7 +35,11 @@ export default function Header() {
           </div>
           <div className="lg:col-span-7 col-span-6">
             <nav>
+<<<<<<< HEAD
               <ul className="hidden lg:flex items-center justify-center gap-8">
+=======
+              <ul className="hidden lg:flex items-center justify-center gap-4">
+>>>>>>> ecc16de1cb94061ce4672908cf59dde881cca65f
                 <li>
                   <Link
                     href="/"
@@ -44,13 +48,28 @@ export default function Header() {
                     الرئيسية
                   </Link>
                 </li>
+<<<<<<< HEAD
 
+=======
+>>>>>>> ecc16de1cb94061ce4672908cf59dde881cca65f
                 <li>
                   <Link
                     href="/"
                     className="text-custom14 font-[700] text-blackGrey"
                   >
+<<<<<<< HEAD
                     كيف نعمل
+=======
+                    من نحن
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/"
+                    className="text-custom14 font-[700] text-blackGrey"
+                  >
+                    المدونة
+>>>>>>> ecc16de1cb94061ce4672908cf59dde881cca65f
                   </Link>
                 </li>
                 <li className="relative group">
@@ -58,7 +77,11 @@ export default function Header() {
                     href="/consulting"
                     className="flex items-center gap-2 text-custom14 font-[700] text-blackGrey"
                   >
+<<<<<<< HEAD
                     الخدمات
+=======
+                    الاستشارات المالية
+>>>>>>> ecc16de1cb94061ce4672908cf59dde881cca65f
                     <FaChevronDown className="text-[12px] text-grey transition-transform duration-300 group-hover:rotate-180" />
                   </Link>
 
@@ -109,6 +132,7 @@ export default function Header() {
                     href="/"
                     className="text-custom14 font-[700] text-blackGrey"
                   >
+<<<<<<< HEAD
                     لماذا نحن
                   </Link>
                 </li>
@@ -127,6 +151,9 @@ export default function Header() {
                     className="text-custom14 font-[700] text-blackGrey"
                   >
                     اراء العملاء
+=======
+                    تواصل معنا
+>>>>>>> ecc16de1cb94061ce4672908cf59dde881cca65f
                   </Link>
                 </li>
               </ul>

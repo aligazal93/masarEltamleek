@@ -36,7 +36,11 @@ export default function Sidenav({ open, setOpen }) {
             <li>
               <Link
                 href="/"
+<<<<<<< HEAD
                 className="text-custom16 my-[20px] block font-[700] text-white"
+=======
+                className="text-custom16 my-[10px] block font-[700] text-white"
+>>>>>>> ecc16de1cb94061ce4672908cf59dde881cca65f
               >
                 من نحن
               </Link>
@@ -49,7 +53,11 @@ export default function Sidenav({ open, setOpen }) {
                 المدونة
               </Link>
             </li>
+<<<<<<< HEAD
             <li className=" relative my-[20px] group">
+=======
+            <li className=" relative group">
+>>>>>>> ecc16de1cb94061ce4672908cf59dde881cca65f
               <Link
                 href="/consulting"
                 className="flex items-center gap-2 text-custom16 my-[10px] font-[700] text-white"
@@ -109,6 +117,7 @@ export default function Sidenav({ open, setOpen }) {
             </li>
           </ul>
         </nav>
+<<<<<<< HEAD
         <div className="mt-[30px]">
           <button
             aria-label="تسجيل الدخول"
@@ -121,6 +130,21 @@ export default function Sidenav({ open, setOpen }) {
             تسجيل الدخول
           </button>
         </div>
+=======
+        <button
+          aria-label="تسجيل الدخول"
+          onClick={() => setOpenLogin(true)}
+          className="flex items-center gap-1 text-custom14 text-darkGrey font-[700]"
+        >
+          <Image
+            src="/images/user.png"
+            alt="تسجيل الدخول"
+            width={18}
+            height={18}
+          />
+          تسجيل الدخول
+        </button>
+>>>>>>> ecc16de1cb94061ce4672908cf59dde881cca65f
       </div>
       <div
         onClick={() => setOpen(false)}

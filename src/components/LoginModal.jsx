@@ -62,10 +62,17 @@ export default function LoginModal({ open, setOpen }) {
                     height={80}
                     className="block my-4 mx-auto object-contain"
                   />
+<<<<<<< HEAD
                   <h1 className="text-primary text-custom20 md:text-custom24 lg:text-custom26 font-[700]">
                     سجّل حسابك الآن{" "}
                   </h1>
                   <p className="text-primary text-custom20 md:text-custom24 lg:text-custom26 font-[700]">
+=======
+                  <h1 className="text-primary text-custom26 font-[700]">
+                    سجّل حسابك الآن{" "}
+                  </h1>
+                  <p className="text-primary text-custom26 font-[700]">
+>>>>>>> ecc16de1cb94061ce4672908cf59dde881cca65f
                     واطلب أفضل حلولك التمويلية بسهولة
                   </p>
                   <p className="text-custom16 text-grey py-4">

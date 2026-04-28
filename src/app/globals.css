@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
 
 .testimonials-swiper {
@@ -26,3 +27,6 @@
 
     background: #39B993
 }
+=======
+@tailwind utilities;
+>>>>>>> ecc16de1cb94061ce4672908cf59dde881cca65f
